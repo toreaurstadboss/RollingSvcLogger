@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,6 +48,7 @@
     <Compile Include="RollingXmlWriterTraceListenerbase.cs" />
   </ItemGroup>
   <ItemGroup>
+	<None Include="docs\readme.md" Pack="true" PackagePath="\"/>
     <None Include="Readme.md" />
     <None Include="NugetPackRelease\ToreAurstadIT.RollingSvcLogger.1.0.0.nupkg" />
     <None Include="ToreAurstadIT.RollingSvcLogger.nuspec" />
@@ -54,6 +56,9 @@
   <ItemGroup>
     <Content Include="Images\svclog_files_dir.png" />
     <Content Include="Images\svclog_file_error.png" />
+    <Content Include="license.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="license\license.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
