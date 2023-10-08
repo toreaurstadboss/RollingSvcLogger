@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RollingDateXmlWriterTraceListener.cs" />
     <Compile Include="RollingNumXmlWriterTraceListener.cs" />
@@ -49,10 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />
+    <None Include="NugetPackRelease\ToreAurstadIT.RollingSvcLogger.1.0.0.nupkg" />
+    <None Include="ToreAurstadIT.RollingSvcLogger.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\svclog_files_dir.png" />
     <Content Include="Images\svclog_file_error.png" />
+    <Content Include="license\license.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

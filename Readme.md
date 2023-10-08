@@ -1,5 +1,11 @@
 ## ToreAurstadIT.Logger - RollingXmlWriterTraceListener
 
+Build new releases with command:
+
+```cmd
+   nuget.exe pack -IncludeReferencedProjects -properties Configuration=Release
+```
+
 Denne løsningen inneholder en tilpasset logger for SVCLOG filer (.svclog) som viser svclogs.
 
 Denne rullerer slik at filstørrelsen på hver aktive .svclog fil holdes nede. Eksempel på config setting er denne brukt i SomeAcme: 

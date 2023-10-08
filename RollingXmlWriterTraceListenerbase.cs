@@ -3,8 +3,8 @@
 // <email>marc@wittke-web.SpamBotGoAway.de</email>
 // <date>2008-11-13</date>
 // <summary>Contains the RollingXmlWriterTraceListener class.</summary>
-// <remarks>Code tidy-up by Tore Aurstad, tore.aurstad@hemit.no</remarks> 
-namespace Hemit.Logger
+// <remarks>Code tidy-up by Tore Aurstad, tore.aurstad@ToreAurstadIT.no</remarks> 
+namespace ToreAurstadIT.Logger
 {
     #region usings
     using System;
@@ -21,7 +21,7 @@ namespace Hemit.Logger
     ///     <code>
     ///         <sharedListeners>
     ///             <!-- Adding RollingXmlWriterTraceListener and setting the output folder to C:\svclogs and the Max trace file size to 100 MB -->
-    ///             <add type="Hemit.Logger.RollingXmlWriterTraceListener, Hemit.Logger" name="System.ServiceModel.XmlTrace.Listener" traceOutputOptions="None" initializeData="C:\svclogs\MyTraceLogFile.svclog" MaxTraceFileSize="104857600" />
+    ///             <add type="ToreAurstadIT.Logger.RollingXmlWriterTraceListener, ToreAurstadIT.Logger" name="System.ServiceModel.XmlTrace.Listener" traceOutputOptions="None" initializeData="C:\svclogs\MyTraceLogFile.svclog" MaxTraceFileSize="104857600" />
     ///         </sharedListeners>
     ///     </code>
     /// </example>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ToreAurstadIT.RollingSvcLogger</id>
+    <version>1.0.0.0</version>
+    <title>ToreAurstadIT.RollingSvcLogger</title>
+    <authors>Tore Aurstad IT</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/toreaurstadboss/RollingSvcLogger</projectUrl>
+
+    <repository type="git" url="https://github.com/toreaurstadboss/RollingSvcLogger" />
+    <description>Rolling svc logger for WCF. Allows you to set a 'MaxTraceFileSize' value in bytes to control the rolling. Naming conventions supported is either numeric or a datetime plus numeric.
+    </description>
+    <copyright>Copyright Tore Aurstad IT © 2023</copyright>
+    <tags>WCF SvcLog Devops CSharp DotNetFramework4</tags>
+    <contentFiles>
+      <files include="*" />
+    </contentFiles>
+  </metadata>
+</package>

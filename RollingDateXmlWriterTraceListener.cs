@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace Hemit.Logger
+namespace ToreAurstadIT.Logger
 {
     /// <summary>
     /// A rolling logger that increments a logger when the size has filled up enough space defined by the 'MaxTraceFileSize' attribute.
@@ -18,7 +18,7 @@ namespace Hemit.Logger
         /// numeric expression with any repetitions and a dot (that marks the beginning of the file extension). The named 
         /// capture group named by the constant &quot;LogFileNumberCaptureName&quot; will contain the number.
         /// </summary>
-        /// <remarks>Example file name: OpPlanTraceLogs_20231008_0001.svclog followed by OpPlanTraceLogs_0002.svclog and so on</remarks>
+        /// <remarks>Example file name: SomeAcmeTraceLogs_20231008_0001.svclog followed by SomeAcmeTraceLogs_0002.svclog and so on</remarks>
         private readonly Regex _logfileSuffixExpression = new Regex(@"_(?<" + LogFileNumberCaptureName + @">\d*)\.", RegexOptions.Compiled);
 
         /// <summary>
